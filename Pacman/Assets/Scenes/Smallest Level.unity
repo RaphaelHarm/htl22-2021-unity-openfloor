@@ -493,7 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 370008e4a6aa44d55a9e0f656944f165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directions: 020000000300000001000000
+  directions: 0100000003000000
 --- !u!135 &1148664376
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -641,7 +641,7 @@ BoxCollider:
   m_GameObject: {fileID: 1440512523}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -736,7 +736,7 @@ BoxCollider:
   m_GameObject: {fileID: 1486866311}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -789,6 +789,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486866311}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1627899945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6096866456746522142, guid: 67e69f8f87ffc4b198f7e45510402e3c, type: 3}
+  m_PrefabInstance: {fileID: 6096866456035132832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1627899946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627899945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8611cf7c7dab4a0598c5e39dd877c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &1742945395
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1742945396
 Transform:
   m_ObjectHideFlags: 0
@@ -926,7 +944,7 @@ BoxCollider:
   m_GameObject: {fileID: 1905049020}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1021,7 +1039,7 @@ BoxCollider:
   m_GameObject: {fileID: 2043197911}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1091,7 +1109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6096866456746522210, guid: 67e69f8f87ffc4b198f7e45510402e3c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.07
       objectReference: {fileID: 0}
     - target: {fileID: 6096866456746522210, guid: 67e69f8f87ffc4b198f7e45510402e3c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1129,5 +1147,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6096866456746522211, guid: 67e69f8f87ffc4b198f7e45510402e3c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 67e69f8f87ffc4b198f7e45510402e3c, type: 3}
