@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="GhostController.cs" t="Include" />
+          <e p="GhostRaycastController.cs" t="Include" />
           <e p="MySpriteAnimator.cs" t="Include" />
           <e p="NewGhostController.cs" t="Include" />
           <e p="Waypoint.cs" t="Include" />

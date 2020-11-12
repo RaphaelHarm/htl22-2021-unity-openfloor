@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b044e00f-c5b0-4c53-9dbf-1470a50c18b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Smallest Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Smallest Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewGhostController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GhostRaycastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GhostController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -44,6 +49,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GhostController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewGhostController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MySpriteAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GhostRaycastController.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603373807541</updated>
       <workItem from="1603373812636" duration="2719000" />
-      <workItem from="1604584510236" duration="2128000" />
+      <workItem from="1604584510236" duration="2833000" />
+      <workItem from="1605189182827" duration="4310000" />
     </task>
     <servers />
   </component>
@@ -113,5 +120,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1297" y="286" width="672" height="678" key="search.everywhere.popup" timestamp="1605190428999">
+      <screen x="-1920" y="23" width="1920" height="1177" />
+    </state>
+    <state x="-1297" y="286" width="672" height="678" key="search.everywhere.popup/0.23.1440.831/-1920.23.1920.1177@-1920.23.1920.1177" timestamp="1605190428999" />
   </component>
 </project>
