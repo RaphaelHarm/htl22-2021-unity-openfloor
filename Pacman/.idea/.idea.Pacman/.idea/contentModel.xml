@@ -9,6 +9,7 @@
           <e p="GhostRaycastController.cs" t="Include" />
           <e p="MySpriteAnimator.cs" t="Include" />
           <e p="NewGhostController.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
           <e p="Waypoint.cs" t="Include" />
         </e>
       </e>

@@ -14,6 +14,14 @@ public class GhostRaycastController : MonoBehaviour
     //                         x*x + y*y + z*z = c*c -> c = Math.Sqrt(x*x + y*y + z*z)
     public Vector3 direction;
 
+    private enum State
+    {
+        Idle,
+        Attack
+    }
+
+    private State state;
+    
     private Vector3[] possibleDirections = { Vector3.right, Vector3.forward, Vector3.left, Vector3.back };
     private int directionIndex;
     
@@ -24,6 +32,7 @@ public class GhostRaycastController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        state = State.Idle;
         directionIndex = 0;
         direction = possibleDirections[directionIndex];
     }
@@ -81,6 +90,24 @@ public class GhostRaycastController : MonoBehaviour
         Gizmos.color = gizmoColor;
         Gizmos.DrawLine(transform.position, transform.position + direction * RAYCAST_DISTANCE);
         
+        if (state == State.Attack)
+            Gizmos.color = Color.red;
+        else
+            Gizmos.color = Color.gray;
+
+        SphereCollider collider = GetComponent<SphereCollider>();
+        Gizmos.DrawWireSphere(transform.position, collider.radius);
+        
         Gizmos.color = oldColor;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        state = State.Attack;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        state = State.Idle;
     }
 }

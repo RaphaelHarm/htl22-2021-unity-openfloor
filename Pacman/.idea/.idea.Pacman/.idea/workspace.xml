@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b044e00f-c5b0-4c53-9dbf-1470a50c18b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/RaycastScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RaycastScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GhostRaycastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GhostRaycastController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GhostController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewGhostController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MySpriteAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GhostRaycastController.cs" />
       </list>
     </option>
@@ -94,6 +97,7 @@
       <workItem from="1603373812636" duration="2719000" />
       <workItem from="1604584510236" duration="2833000" />
       <workItem from="1605189182827" duration="4719000" />
+      <workItem from="1605794294557" duration="2605000" />
     </task>
     <servers />
   </component>
